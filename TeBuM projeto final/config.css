@@ -1,0 +1,71 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: rgb(0, 0, 80) url('imagens treino/fundo.jpg');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-attachment: scroll;
+  font: 16px
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: aqua;
+  padding: 10px 15px;
+}
+
+a:hover {
+  color: #f7b600;
+  background: white;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1,5em;
+}
+
+#cabacalho {
+  text-align: center;
+  background: rgb(0, 140, 255);
+  padding: 10px;
+}
+
+#area {
+  margin: 10px auto;
+  padding: 5px;
+}
+
+#logo {
+  background: rgb(0, 0, 0);
+  border: rgb(0, 0, 0);
+  text-align: right;
+  padding: 5px;
+}
+
+#topo {
+  border: none;
+  text-align: right;
+  width: 900px;
+  padding: 8px;
+}
+
+#principal {
+  background: white;
+  width: 1000px;
+}
+
+.fundodiv {
+  background: white;
+}
+
+.texto {
+  text-align: center;
+  font-size: 1,5em;
+}
+
+.segurança {
+  text-align: right;
+}
